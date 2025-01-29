@@ -1,0 +1,55 @@
+/**
+ * Extras added by myself
+ */
+
+a {
+    text-decoration: none;
+}
+
+.neutral {
+    color: black;
+}
+
+.neutral:hover {
+    color: rgb(139, 139, 139);
+}
+
+.space {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.space2x {
+    margin: 40px 0;
+    padding: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.rounded {
+    border-radius: 100px;
+}
+
+.selectnone {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.nogap {
+    gap: 1;
+    width: 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
