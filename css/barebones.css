@@ -168,6 +168,7 @@ html {
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 html {
   font-size: var(--base-font-size);
   scroll-behavior: smooth;
@@ -176,7 +177,7 @@ body {
   font-size: 1.6rem;		/* changed from 15px in orig skeleton */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Oxygen Mono", serif;
   color: var(--text-color-normal); 
   background-color: var(--background-color);;
 }
