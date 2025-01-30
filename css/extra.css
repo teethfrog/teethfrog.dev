@@ -61,7 +61,6 @@ hr {
 }
 
 .list  h6 {
-    text-align: justify;
-    direction:rtl;
+    text-align: right;
     text-overflow: none;
 }
