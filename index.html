@@ -12,43 +12,44 @@
   <link rel="stylesheet" href="css/barebones.css">
   <link rel="stylesheet" href="css/extra.css">
   <script src="src/index.js"></script>
+  <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
 
 </head>
 <body>
-    <div class="grid-container fifths">
-        <a href="#" class="logo selectnone">teethfrog.dev</a>
+    <div class="grid-container fifths selectnone">
+        <a href="#" class="logoe">teethfrog.dev</a>
         <div></div>
-        <a class="neutral selectnone" href="#about" class="logo">about</a>
-        <a class="neutral selectnone" href="#skills" class="logo">skills</a>
-        <a class="neutral selectnone" href="#projects" class="logo">projects</a>
+        <a class="neutral" href="#about" class="logo">about</a>
+        <a class="neutral" href="#skills" class="logo">skills</a>
+        <a class="neutral" href="#projects" class="logo">projects</a>
     </div>
 
-    <div class="space">
+    <div class="space2x">
     </div>
 
-    <section id="about">
+    <section id="about" class="selectnone">
         <div class="grid-container halves">
-            <img class="rounded selectnone" src="../assets/portait.png">
+            <img class="rounded" src="../assets/portait.png">
             <div class="u-align-left">
                 <div class="space2x">
                 </div>
-                 <h1 class="selectnone"> Hello! 👋 </h1> 
-                 <h8 class="selectnone"> 
+                 <h1> Hello! 👋 </h1> 
+                 <h8> 
                     My name is Alexander and I am a 3rd Year IT student located in Helsinki.
                 </h8> 
-                <h8 class="selectnone"> 
+                <h8> 
                     Pursuing a Bachelor in Information Technology at Arcada University of Applied Sciences  
                 </h8>
                 <div></div>
                 <div class="grid-container thirds u-pull-left">
                     <a href="https://www.linkedin.com/in/alexander-kasianov-a18397264/" target="_blank" class="icon">
-                        <img class="selectnone" src="../assets/linkedin-brands-solid.svg" alt="LinkedIn">
+                        <img src="../assets/linkedin-brands-solid.svg" alt="LinkedIn">
                     </a>
                     <a href="https://github.com/teethfrog" target="_blank" class="icon">
-                        <img class="selectnone" src="../assets/github-brands-solid.svg" alt="GitHub">
+                        <img src="../assets/github-brands-solid.svg" alt="GitHub">
                     </a>
                     <a href="#" class="icon" onclick="copyToClipboard()">
-                        <img class="selectnone" src="../assets/envelope-solid.svg" alt="Copy to Clipboard">
+                        <img src="../assets/envelope-solid.svg" alt="Copy to Clipboard">
                     </a>
                 </div>
             </div>
@@ -58,14 +59,16 @@
 
     <div class="space2x">
     </div>
+    <div class="space2x">
+    </div>
 
-    <section id="skills">
+    <section id="skills" class="selectnone">
         <div class="grid-container full">
             <h1 class="selectnone"> Skills </h1> 
             <div class="grid-container fifths u-full-width"> 
-                <div> 
+                <div class="list  nogap"> 
                     <h4> Languages </h4>
-                    <div class="grid-container halves">
+                    <div class="grid-container halves ">
                         <h6> JavaScript </h6> <img class="selectnone icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
                         <h6> Python </h6> <img class="selectnone icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
                         <h6> Java </h6> <img class="selectnone icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
@@ -75,9 +78,9 @@
                     </div>
                 </div>
                 <div> </div>
-                <div> 
-                    <h4> Technologies  </h4>
-                    <div class="grid-container halves">
+                <div class="list"> 
+                    <h4> Technologies</h4>
+                    <div class="grid-container halves u-full-width">
                         <h6> React </h6> <img class="selectnone icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React">
                         <h6> Vue.js </h6> <img class="selectnone icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" alt="Vue.js">
                         <h6> Flask </h6> <img class="selectnone icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask">
@@ -86,7 +89,7 @@
                     </div>
                 </div>
                 <div>  </div>
-                <div> 
+                <div class="list"> 
                     <h4> Others </h4>
                     <div class="grid-container halves">
                         <h6> Cloudflare </h6> <img class="selectnone icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" alt="Cloudflare">
@@ -103,10 +106,26 @@
 
     </section>
 
-    <section id="projects">
-        <div>
+    <div class="space2x">
+    </div>
+    <div class="space2x">
+    </div>
 
+    <section id="projects" class="selectnone">
+        <div class="grid-container full">
+            <h1 class="selectnone"> Projects </h1> 
+            <div class="grid-container thirds  u-full-width">
+                <div class="repo-card" data-repo="boijer01-teethfrog/WoM2024-ChatGame"></div>
+                <div class="repo-card" data-repo="teethfrog/WordleConsole"></div>
+                <div class="repo-card" data-repo="teethfrog/Backend22"></div>
+                <div class="repo-card" data-repo="streamerteach/project2-group-5"></div>
+                <div class="repo-card" data-repo="Alanningar/libraryApp"></div>
+                <div class="repo-card" data-repo="CNA-25/inventory-service"></div>
+            </div>
         </div>
     </section>
+
+    <div class="space2x">
+    </div>
 </body>
 </html>

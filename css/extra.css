@@ -34,7 +34,7 @@ hr {
     border-radius: 100px;
 }
 
-.selectnone {
+.selectnone, .selectnone * {
     user-select: none;
     -webkit-user-drag: none;
 }
@@ -52,4 +52,16 @@ hr {
 .row {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list  h6 {
+    text-align: justify;
+    direction:rtl;
+    text-overflow: none;
 }
