@@ -32,6 +32,8 @@ hr {
 
 .rounded {
     border-radius: 100px;
+    width: 450px;
+    height: 450px;
 }
 
 .selectnone, .selectnone * {
@@ -75,12 +77,13 @@ hr {
     background: linear-gradient(to top, white 70%, transparent);
 }
 
-.header {
+/*
+.navbar {
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
     top: 0;
+    left: 0;
     width: 100%;
-    background-color: white;
-    z-index: 1000;
+    background: white;
+    z-index: 999;
 }
+*/
